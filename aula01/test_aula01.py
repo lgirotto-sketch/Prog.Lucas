@@ -54,3 +54,17 @@ def test_segundo_maior():
 
 def test_segundo_maior_repetido():
     assert segundo_maior([5, 5, 1]) == 5
+
+
+
+
+
+
+def soma(lista):
+    if lista==0:
+        return 0
+    
+
+
+a = input("Quantos números vai ter?\n")
+        
