@@ -10,7 +10,7 @@ Os exercicios do Bloco 3 devolvem DOIS valores: o resultado e a contagem.
 
 def conta_negativos(lista):
     """Quantos numeros da lista sao menores que zero."""
-  
+  pass
     total = 0
     for n in lista:
         if n < 0:
@@ -20,7 +20,8 @@ def conta_negativos(lista):
 
 def media(lista):
     """Media dos numeros. Lista vazia devolve 0."""
-  
+pass
+
 if len(lista) == 0:
         return 0
     soma = 0
