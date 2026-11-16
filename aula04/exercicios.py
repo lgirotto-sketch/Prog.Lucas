@@ -9,15 +9,7 @@ que altera a lista de quem chamou a funcao.
 """
 
 
-def custo_binaria(n):
-    """PRONTA. Nao mexa.
-    Pior caso da busca binaria numa lista de n elementos.
-    E a quantas_divisoes da aula passada mais 1."""
-    divisoes = 0
-    while n > 1:
-        n = n // 2
-        divisoes = divisoes + 1
-    return divisoes + 1
+
 
 
 def tem_repetido_ordenando(lista):
